@@ -3,15 +3,12 @@ import git
 from git_contributions_importer import *
 
 # Your private repo or Bitbucket repo
-repo = git.Repo(r"C:\Users\llra2001\Documents\GitHub\autocoding-e2e")
+repo = git.Repo(r"C:\Users\llra2001\Documents\GitHub\sku-links")
 # Your mock repo
 mock_repo = git.Repo(r"C:\Users\llra2001\Documents\GitHub\mock-repo")
 importer = Importer([repo], mock_repo)
 # I use both my personal email and work email here,
 # Since the private repo uses work email, and Github uses my personal email
 importer.set_author(['raul.llamosas182@gmail.com', 'raul.llamosas@nielseniq.com'])
-print("elmni")
-print("xafgg")
-print("naqmi")
-print("yghli")
-print("itwtk")
+importer.import_repository()
+print("auehv")
