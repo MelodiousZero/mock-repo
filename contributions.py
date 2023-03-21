@@ -3,7 +3,7 @@ import git
 from git_contributions_importer import *
 
 # Your private repo or Bitbucket repo
-repo = git.Repo(r"C:\Users\llra2001\Documents\GitHub\autocoding-e2e")
+repo = git.Repo(r"C:\Users\llra2001\Documents\GitHub\geo-scan-extractions")
 # Your mock repo
 mock_repo = git.Repo(r"C:\Users\llra2001\Documents\GitHub\mock-repo")
 importer = Importer([repo], mock_repo)
